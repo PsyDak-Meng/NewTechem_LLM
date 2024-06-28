@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewTechem 产品咨询AI机器人</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div id="chat-box" class="chat-box"></div>
+        <div class="input-box">
+            <button id="start-record-btn" title="Start Recording">🎤</button>
+            <button id="stop-record-btn" title="Stop Recording" disabled>🛑</button>
+            <button id="send-button" title="Send">Send</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

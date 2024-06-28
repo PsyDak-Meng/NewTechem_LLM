@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.chat-box {
+    height: 400px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.input-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+}
