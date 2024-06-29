@@ -63,6 +63,7 @@ class HuggingFaceLLM_api:
         1. If you don't know the answer and don't see the answer in the Context, don't try to make up an answer. Just say "I can't find the final answer but you may want to check the following links". You will be 
         2. If you find the answer, state the product's full name and introduce it thoroughly and concisely in a description within five sentences maximum.
         3. If you cannot find a prooper answer, refer user to Newtechem company link: www.new-techem.com.
+        4. End your sentences on a period
         Context: {context}
         Question: {question}
 

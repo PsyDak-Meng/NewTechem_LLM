@@ -50,7 +50,7 @@ class PyttsxSpeaker():
         self.engine = pyttsx3.init()
 
         # Set properties before adding anything to speak
-        self.engine.setProperty('rate', 180)  # Speed percent (can go over 100)
+        self.engine.setProperty('rate', 200)  # Speed percent (can go over 100)
         self.engine.setProperty('volume', 0.9)  # Volume 0-1
 
         # Get available voices and set the voice to Chinese
